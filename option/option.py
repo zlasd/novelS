@@ -17,6 +17,11 @@ class Option:
         
         vars(self).update(option)
         print(self)
+    
+    def get_batch_num(self):
+        if self.batch_num is None:
+            return 50
+        return self.batch_num
 
     def __str__(self):
         return json.dumps(vars(self))

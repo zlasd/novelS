@@ -1,4 +1,8 @@
 {
-    "book_page_format": "https://www.shuquge.com/txt/{}/index.html"
-    
+    "book_page_format": "https://www.shuquge.com/txt/{book_id}/index.html",
+    "chap_page_format": "https://www.shuquge.com/txt/{book_id}/{chap_id}",
+    "batch_num": 20,
+    "ignore_chap": 12,
+    "chap_list_class": "listmain",
+    "chap_content_class": "showtxt"
 }

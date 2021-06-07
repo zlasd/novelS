@@ -1,4 +1,7 @@
 .vscode
 __pycache__
 *.pyc
-log.txt
+*.txt
+*.log
+_cache
+*.sqlite
