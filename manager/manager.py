@@ -1,3 +1,5 @@
+import time
+
 import requests
 from requests.exceptions import RequestException
 from requests.models import HTTPError
